@@ -53,3 +53,19 @@ theme: /
         image: https://248305.selcdn.ru/zfl_prod/1000046033/264559909/UnEmzQJoe10bCiAr.jpg
         audio: https://248305.selcdn.ru/zfl_prod/1000046033/264559909/audio/zlS3H3kYVfbBeE0K.mp3?channels={"incompatible":["ALEXA","GOOGLE_ASSISTANCE","OUTGOING_CALLS"],"compatible":["ALISA","AIMYBOX","FACEBOOK","WHATSAPP","TELEGRAM","VK"]} || name = "videoplayback.mp3"
         go: /Start
+
+    state: На оператора
+        intent!: /sys/aimylogic/ru/switch
+        TransferToOperator: 
+            titleOfCloseButton = 
+            messageBeforeTransfer = Перевожу на оператора
+            messageBeforeTransferHtml = 
+            prechatAttributes = {}
+            ignoreOffline = false
+            messageForWaitingOperator = 
+            messageForWaitingOperatorHtml = 
+            sendMessageHistoryAmount = 
+            sendMessagesToOperator = true
+            actions = {}
+            htmlEnabled = false
+            destination = 
