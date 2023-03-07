@@ -1789,6 +1789,22 @@
     },
     "patterns" : [ ],
     "priority" : 0
+  }, {
+    "path" : "/Перевод на оператора",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Оператор"
+    }, {
+      "text" : "Перевод на оператора"
+    }, {
+      "text" : "хочу оператора"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
   } ],
   "entities" : [ {
     "entity" : {

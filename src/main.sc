@@ -55,6 +55,7 @@ theme: /
         go: /Start
 
     state: На оператора
+        intent!: /Перевод на оператора
         intent!: /sys/aimylogic/ru/switch
         TransferToOperator: 
             titleOfCloseButton = 
@@ -69,3 +70,4 @@ theme: /
             actions = {}
             htmlEnabled = false
             destination = 
+        event: noMatch || toState = "./"
